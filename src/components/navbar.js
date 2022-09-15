@@ -7,34 +7,33 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-slate-900">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-evenly">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <Link to='/'>
+      <nav className="bg-slate-900 pt-2 pb-2">
+        <div className="flex flex-col md:flex-row items-center justify-center p-4 w-full">
+          <div className="flex items-center">
+            <div className="">
+              <Link to='/'>
                 <img
-                  className=""
-                  src="./devframe.png"
+                  className='w-44 md:w-48'
+                  src="./dev.png"
                   alt="logo"
                 />
-                </Link>
-              </div>
+              </Link>
+            </div>
               <div className="hidden md:block">
-                <div className="tracking-tight antialiased ml-10 flex items-baseline space-x-4">
-                  <a href="/portfolio" className=" hover:text-rose-400 text-white px-3 py-2 rounded-md text-sm xl:text-xl font-medium">
+                <div className="flex items-center justify-evenly tracking-tight antialiased gap-4 md:gap-6">
+                  <a href="/portfolio" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     devPortfolio
                   </a>
-                  <a href="https://www.vivawebdesign.dev" className="text-white hover:text-rose-400 px-3 py-2 rounded-md text-sm xl:text-xl font-medium">
+                  <a href="https://www.vivawebdesign.dev" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     VIVA Web Design
                   </a>
-                  <a href="https://www.vivaportraits.com" className="text-white hover:text-rose-400 px-3 py-2 rounded-md text-sm xl:text-xl font-medium">
+                  <a href="https://www.vivaportraits.com" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     VIVA Portraits
                   </a>
-                  <a href="https://inside-the-bubble.vercel.app" className="text-white hover:text-rose-400 px-3 py-2 rounded-md text-sm xl:text-xl font-medium">
+                  <a href="https://inside-the-bubble.vercel.app" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     Inside The Bubble
                   </a>
-                  <a href="/contact" className="text-white hover:text-rose-400 px-3 py-2 rounded-md text-sm xl:text-xl font-medium">
+                  <a href="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     Contact
                   </a>
                 </div>
@@ -44,7 +43,7 @@ export default function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 border-2 border-white inline-flex items-center justify-center p-2 rounded-md text-white hover:text-rose-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gray-900 border-2 border-white inline-flex items-center justify-center p-2 rounded-md text-white hover:text-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -83,7 +82,6 @@ export default function Nav() {
                   </svg>
                 )}
               </button>
-            </div>
           </div>
         </div>
 
