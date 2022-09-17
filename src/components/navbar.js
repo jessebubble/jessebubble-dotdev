@@ -8,12 +8,12 @@ export default function Nav() {
   return (
     <div>
       <nav className="bg-slate-900 pt-2 pb-2">
-        <div className="flex flex-col md:flex-row items-center justify-center p-4 w-full">
+        <div className="flex flex-row items-center justify-evenly md:justify-center p-4">
           <div className="flex items-center">
             <div className="">
               <Link to='/'>
                 <img
-                  className='w-44 md:w-48'
+                  className='w-36 md:w-40'
                   src="./dev.png"
                   alt="logo"
                 />
@@ -24,10 +24,10 @@ export default function Nav() {
                   <a href="/portfolio" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     devPortfolio
                   </a>
-                  <a href="https://www.vivawebdesign.dev" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                  <a href="/viva" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     VIVA Web Design
                   </a>
-                  <a href="https://www.vivaportraits.com" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
+                  <a href="/portraits" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
                     VIVA Portraits
                   </a>
                   <a href="https://inside-the-bubble.vercel.app" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
@@ -100,10 +100,10 @@ export default function Nav() {
                 <a href="/portfolio" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                   devPortfolio
                 </a>
-                <a href="https://www.vivawebdesign.dev" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a href="/viva" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   VIVA Web Design
                 </a>
-                <a href="https://www.vivaportraits.com" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a href="/portraits" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   VIVA Portraits
                 </a>
                 <a href="https://inside-the-bubble.vercel.app" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">

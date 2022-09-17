@@ -6,15 +6,15 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Footer() {
     return (
       <>
-      <div className='bg-slate-900 border-t border-slate-100 p-6 md:p-2'>
-        <div className='flex items-center justify-between md:justify-evenly'>
+      <div className='bg-slate-900 border-t border-slate-100 p-4 md:p-0'>
+        <div className='flex items-center justify-center md:justify-evenly flex-col md:flex-row'>
           <span className='text-sm tracking-tighter text-slate-500'>
             © 2022 jessebubble.dev
           </span>
           <div className=''> 
             <Player
             src='https://assets7.lottiefiles.com/packages/lf20_kovKmF.json'
-            className='md:w-28 w-20'
+            className='md:w-28 w-16'
             background='transparent'
             loop={true}
             autoplay={true} >
