@@ -6,37 +6,29 @@ import { Link } from 'react-router-dom';
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
-      <nav className="bg-slate-900 pt-2 pb-2">
-        <div className="flex flex-row items-center justify-evenly md:justify-center p-4">
-          <div className="flex items-center">
+    <>
+      <main className="bg-slate-900 pt-2 pb-2">
+        <div className="flex flex-row items-center justify-start md:justify-around gap-24 md:gap-0 p-4">
             <div className="">
               <Link to='/'>
                 <img
-                  className='w-36 md:w-40'
+                  className='w-36 md:w-28'
                   src="./dev.png"
                   alt="logo"
                 />
               </Link>
             </div>
-              <div className="hidden md:block">
-                <div className="flex items-center justify-evenly tracking-tight antialiased gap-4 md:gap-6">
-                  <a href="/portfolio" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
-                    devPortfolio
-                  </a>
-                  <a href="/viva" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
-                    VIVA Web Design
-                  </a>
-                  <a href="/portraits" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
-                    VIVA Portraits
-                  </a>
-                  <a href="https://inside-the-bubble.vercel.app" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
-                    Inside The Bubble
-                  </a>
-                  <a href="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg lg:text-xl font-medium">
-                    Contact
-                  </a>
-                </div>
+            <div className="hidden md:block">
+              <div className="flex items-center justify-evenly tracking-tight antialiased gap-4 md:gap-6">
+                <a href="/portfolio" className="hover:text-indigo-600 text-white text-md md:text-lg font-medium">
+                  devPortfolio
+                </a>
+                <a href="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg  font-medium">
+                  Contact
+                </a>
+                <a href="/blog" className="hover:text-indigo-600 text-white text-md md:text-lg  font-medium">
+                  Blog
+                </a>
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -100,23 +92,18 @@ export default function Nav() {
                 <a href="/portfolio" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                   devPortfolio
                 </a>
-                <a href="/viva" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  VIVA Web Design
-                </a>
-                <a href="/portraits" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  VIVA Portraits
-                </a>
-                <a href="https://inside-the-bubble.vercel.app" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  Inside The Bubble
-                </a>
                 <a href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   Contact
                 </a>
+                <a href="/blog" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  Blog
+                </a>
+                
               </div>
             </div>
           )}
         </Transition>
-      </nav>
-    </div>
+      </main>
+    </>
   );
 }
