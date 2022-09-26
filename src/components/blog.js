@@ -7,11 +7,11 @@ export default function Blog() {
     <>
     <Nav />
 
-    <main className="bg-slate-900 p-10">
-      <div className='border-2 rounded shadow-emerald-300'>
+    <main className="bg-slate-100 pt-12 pb-16 lg:pt-16 lg:pb-20 p-6 md:p-10 lg:p-16">
+      <div className='flex justify-center'>
         <div className=''> 
           <Player
-          src='https://assets10.lottiefiles.com/packages/lf20_h5lattxs.json'
+          src='https://assets4.lottiefiles.com/packages/lf20_ljb5ijxw.json'
           className=''
           background='transparent'
           loop={true}

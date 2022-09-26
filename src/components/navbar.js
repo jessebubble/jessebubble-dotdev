@@ -7,12 +7,12 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <main className="bg-slate-900 pt-2 pb-2">
-        <div className="flex flex-row items-center justify-start md:justify-around gap-24 md:gap-0 p-4">
+      <main className="bg-slate-900">
+        <div className="flex flex-row items-center justify-start md:justify-around gap-24 md:gap-0 p-4 lg:p-0">
             <div className="">
               <Link to='/'>
                 <img
-                  className='w-36 md:w-28'
+                  className='w-36 md:w-20'
                   src="./dev.png"
                   alt="logo"
                 />

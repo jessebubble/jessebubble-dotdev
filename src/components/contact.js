@@ -8,7 +8,7 @@ export default function Contact() {
     <>
     <Nav />
 
-    <main className="relative bg-slate-900 py-16 sm:py-24 lg:-mt-10">
+    <main className="relative bg-slate-900 py-16 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div aria-hidden="true" className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -55,9 +55,15 @@ export default function Contact() {
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Independent doesn't mean alone</h2>
             <div className="mt-6 space-y-6 text-gray-500">
-              <p className="text-lg">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
-              <p className="text-base leading-7">Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-              <p className="text-base leading-7">Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
+              <p className="text-lg">
+                Life before the pandemic was busy, but I was able to find time to work on my own projects. I was able to create a few websites and apps for friends and family, but I was always looking for a way to grow my skills and collaborate with others.
+              </p>
+              <p className="text-base leading-7">
+                During the pandemic I was able to take a step back to really focus on my web development skills. I said goodbye to my full-time job as an insurance professional and dived into the world of web development through a developer bootcamp and the self taught options online.
+              </p>
+              <p className="text-base leading-7">
+                Fast forward to today, I am a full stack web developer with a passion for creating websites and apps that are easy to use and look great. I am always looking for new opportunities to collaborate with others and grow my skills.
+              </p>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ export default function Card() {
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Viva Web Design</p>
                     <p className="mt-3 text-base text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+                      Viva Web Design is a local San Antonio design and animation company specializing in utilizing modern web designs to help small businesses and the local community grow.
                     </p>
                   </a>
                 </div>
@@ -46,7 +46,6 @@ export default function Card() {
                 </div>
               </div>
             </div>
-  
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -62,7 +61,9 @@ export default function Card() {
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Buruato Landscaping</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Mr. B is a local San Antonio landscaper who specializes in lawn care, tree trimming, and more. He's been in the business for over 10 years and has a passion for helping his community.
+                    </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">
@@ -75,7 +76,6 @@ export default function Card() {
                 </div>
               </div>
             </div>
-  
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -91,7 +91,9 @@ export default function Card() {
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Viva Portraits</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Mr. B is a local San Antonio landscaper who specializes in lawn care, tree trimming, and more. He's been in the business for over 10 years and has a passion for helping his community.
+                    </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">
@@ -104,7 +106,6 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -120,7 +121,9 @@ export default function Card() {
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Ponce Remodeling</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Ponce Remodeling specializes in interior and exterior remodeling. Commercial and Residential services are available to the San Antonio community.
+                    </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">
@@ -133,7 +136,6 @@ export default function Card() {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -149,7 +151,9 @@ export default function Card() {
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Crafty Wreaths</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Crafty Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Crafty Wreaths can create the perfect wreath for your home.
+                    </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">
@@ -162,7 +166,6 @@ export default function Card() {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
@@ -178,7 +181,9 @@ export default function Card() {
                   </p>
                   <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
-                    <p className="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.    
+                    </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">

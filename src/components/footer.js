@@ -14,7 +14,7 @@ export default function Footer() {
           <div className=''> 
             <Player
             src='https://assets7.lottiefiles.com/packages/lf20_kovKmF.json'
-            className='md:w-28 w-16'
+            className='md:w-15 w-16'
             background='transparent'
             loop={true}
             autoplay={true} >

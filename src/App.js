@@ -30,7 +30,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Figma</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    Figma connects everyone in the design process so teams can deliver better products, faster.
                   </p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">React</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    React makes it painless to create interactive UIs. Design simple views for each state in your application.
                   </p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">TailwindCSS</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design.
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">GraphQL</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
                   </p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Shopify</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    Shopify is a commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.
                   </p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Headless CMS</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    A headless CMS provides a content repository and a set of APIs for developers to build their own custom frontend.
                   </p>
                 </div>
               </div>
@@ -120,7 +120,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Vercel</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    Vercel is a cloud platform for static sites and Serverless Functions that you can deploy instantly.
                   </p>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Google Domains</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    Google domain names are easy to use and come with a range of features to help you grow your website.
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function App() {
                   </div>
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Google Analytics</h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    Google Analytics is a free web analytics service offered by Google that tracks and reports website traffic.
                   </p>
                 </div>
               </div>

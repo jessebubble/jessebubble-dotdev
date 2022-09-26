@@ -5,19 +5,19 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Hero() {
   return (
     <>
-     <main className="bg-slate-900 lg:pb-6">
+     <main className="bg-slate-900 lg:pt-16 lg:pb-16">
       <div className="flex flex-col lg:flex-row items-center justify-evenly p-8 md:p-10 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
-            More Than Just A <span className="block text-cyan-400">Developer</span>
+            More Than Just A <span className="block text-sky-400">Developer</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
             San Antonio native with strong interpersonal and communication skills, dedicated to teamwork and collaboration. 
             From the world of selling insurance to holding a Full Stack Web Development certificate from the University of Texas at San Antonio where I developed skills using modern web technologies.  
           </p>
           <div className="mt-5 flex items-center justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:bg-white hover:border-cyan-400'>
-              <Link to="/contact" className='text-white hover:text-gray-900 pr-2 pl-2'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:border-sky-400'>
+              <Link to="/contact" className='text-white pr-2 pl-2'>
                 Let's Connect 
               </Link>
             </div>
@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
         <div className=''> 
           <Player
-          src='https://assets6.lottiefiles.com/packages/lf20_8qDRX7nBln.json'
+          src='https://assets5.lottiefiles.com/private_files/lf30_jr8x8vcd.json'
           className='md:w-60 lg:w-80'
           background='transparent'
           loop={true}
@@ -89,9 +89,15 @@ export default function Hero() {
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Independent doesn't mean alone</h2>
             <div className="mt-6 space-y-6 text-gray-500">
-              <p className="text-lg">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
-              <p className="text-base leading-7">Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-              <p className="text-base leading-7">Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
+              <p className="text-lg">
+                Life before the pandemic was busy, but I was able to find time to work on my own projects. I was able to create a few websites and apps for friends and family, but I was always looking for a way to grow my skills and collaborate with others.
+              </p>
+              <p className="text-base leading-7">
+                During the pandemic I was able to take a step back to really focus on my web development skills. I said goodbye to my full-time job as an insurance professional and dived into the world of web development through a developer bootcamp and the self taught options online.
+              </p>
+              <p className="text-base leading-7">
+                Fast forward to today, I am a full stack web developer with a passion for creating websites and apps that are easy to use and look great. I am always looking for new opportunities to collaborate with others and grow my skills.
+              </p>
             </div>
           </div>
         </div>
