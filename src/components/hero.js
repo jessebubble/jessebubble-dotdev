@@ -5,17 +5,17 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Hero() {
   return (
     <>
-     <main className="bg-slate-900 lg:pt-16 lg:pb-16">
-      <div className="flex flex-col lg:flex-row items-center justify-evenly p-8 md:p-10 lg:p-16">
+     <main className="bg-slate-900 md:pt-6 md:pb-6 lg:pt-16 lg:pb-16">
+      <div className="flex flex-col md:flex-row items-center justify-evenly p-6 md:p-8 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
             More Than Just A <span className="block text-sky-400">Developer</span>
           </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
+          <p className="tracking-tight antialiased mt-3 md:mt-5 text-white md:max-w-xl text-lg md:text-xl">
             San Antonio native with strong interpersonal and communication skills, dedicated to teamwork and collaboration. 
             From the world of selling insurance to holding a Full Stack Web Development certificate from the University of Texas at San Antonio where I developed skills using modern web technologies.  
           </p>
-          <div className="mt-5 flex items-center justify-start">
+          <div className="mt-5 flex items-center justify-start pb-6 lg:pb-0">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:border-sky-400'>
               <Link to="/contact" className='text-white pr-2 pl-2'>
                 Let's Connect 

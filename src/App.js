@@ -3,7 +3,7 @@ import Hero from './components/hero';
 import Card from './components/card';
 import Form from './components/form';
 import Footer from './components/footer';
-import { SiTailwindcss, SiReact, SiFigma, SiWordpress, SiShopify, SiGraphql, SiVercel, SiGoogledomains, SiGoogleanalytics } from "react-icons/si";
+import { SiTailwindcss, SiReact, SiFigma, SiWordpress, SiGraphql, SiVercel } from "react-icons/si";
 
 export default function App() {
   return (
@@ -85,21 +85,6 @@ export default function App() {
                 <div className="-mt-6">
                   <div>
                     <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
-                      <SiShopify className='h-6 w-6 text-white'/>
-                    </span>
-                  </div>
-                  <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Shopify</h3>
-                  <p className="mt-5 text-base text-gray-500">
-                    Shopify is a commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="pt-6">
-              <div className="flow-root rounded-lg bg-slate-100 px-6 pb-8">
-                <div className="-mt-6">
-                  <div>
-                    <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
                       <SiWordpress className='h-6 w-6 text-white'/>
                     </span>
                   </div>
@@ -121,36 +106,6 @@ export default function App() {
                   <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Vercel</h3>
                   <p className="mt-5 text-base text-gray-500">
                     Vercel is a cloud platform for static sites and Serverless Functions that you can deploy instantly.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="pt-6">
-              <div className="flow-root rounded-lg bg-slate-100 px-6 pb-8">
-                <div className="-mt-6">
-                  <div>
-                    <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
-                      <SiGoogledomains className='h-6 w-6 text-white'/>
-                    </span>
-                  </div>
-                  <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Google Domains</h3>
-                  <p className="mt-5 text-base text-gray-500">
-                    Google domain names are easy to use and come with a range of features to help you grow your website.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="pt-6">
-              <div className="flow-root rounded-lg bg-slate-100 px-6 pb-8">
-                <div className="-mt-6">
-                  <div>
-                    <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
-                      <SiGoogleanalytics className='h-6 w-6 text-white'/>
-                    </span>
-                  </div>
-                  <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">Google Analytics</h3>
-                  <p className="mt-5 text-base text-gray-500">
-                    Google Analytics is a free web analytics service offered by Google that tracks and reports website traffic.
                   </p>
                 </div>
               </div>
