@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <>
       <main className="bg-slate-900">
-        <div className="flex flex-row items-center justify-start md:justify-around gap-24 md:gap-0 p-4 lg:p-0">
+        <div className="flex flex-row items-center justify-start md:justify-around gap-40 md:gap-0 p-4 lg:p-0">
             <div className="">
               <Link to='/'>
                 <img
@@ -23,11 +23,11 @@ export default function Nav() {
                 <a href="/portfolio" className="hover:text-indigo-600 text-white text-md md:text-lg font-medium">
                   devPortfolio
                 </a>
-                <a href="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg  font-medium">
-                  Contact
-                </a>
                 <a href="/blog" className="hover:text-indigo-600 text-white text-md md:text-lg  font-medium">
                   Blog
+                </a>
+                <a href="/contact" className="hover:text-indigo-600 text-white text-md md:text-lg  font-medium">
+                  Contact
                 </a>
               </div>
             </div>
@@ -92,11 +92,11 @@ export default function Nav() {
                 <a href="/portfolio" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
                   devPortfolio
                 </a>
-                <a href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                  Contact
-                </a>
                 <a href="/blog" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                   Blog
+                </a>
+                <a href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  Contact
                 </a>
                 
               </div>

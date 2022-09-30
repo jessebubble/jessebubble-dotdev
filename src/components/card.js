@@ -18,27 +18,61 @@ export default function Card() {
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover" 
-                  src="./vwd.png" 
-                  alt=""
-                />
+                <a href="https://www.vivawebdesign.dev">
+                  <img 
+                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    src="./vwd.png" 
+                    alt="viva logo"
+                  />
+                </a>
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
+                    <a href="/post/viva-web-design" className="hover:underline">devBlog</a>
                   </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Viva Web Design</p>
+                  <div className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900"><span className='text-fuchsia-500'>VIVA</span> Web Design</p>
                     <p className="mt-3 text-base text-gray-500">
                       Viva Web Design is a local San Antonio design and animation company specializing in utilizing modern web designs to help small businesses and the local community grow.
                     </p>
-                  </a>
+                  </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="/">
+                    <a href="https://github.com/jessebubble/viva-homepage">
+                      <span className="sr-only">Github</span>
+                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <a href="https://www.vivaportraits.com/">
+                  <img 
+                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    src="./vp.png" 
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <a href="/post/viva-portraits" className="hover:underline">devBlog</a>
+                  </p>
+                  <div className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900"><span className="text-orange-500">VIVA</span> Portraits</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Viva Portraits is a local San Antonio team of creatives specializing in accessable, affordable portraits for the community. Learn more about their monthly themed portrait sessions.
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="flex-shrink-0">
+                    <a href="https://github.com/jessebubble/viva-portraits">
                       <span className="sr-only">Github</span>
                       <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
                     </a>
@@ -49,7 +83,7 @@ export default function Card() {
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
-                  className="h-48 w-full object-cover" 
+                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                   src="./bl.png" 
                   alt=""
                 />
@@ -57,14 +91,14 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
+                    <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Buruato Landscaping</p>
                     <p className="mt-3 text-base text-gray-500">
                       Mr. B is a local San Antonio landscaper who specializes in lawn care, tree trimming, and more. He's been in the business for over 10 years and has a passion for helping his community.
                     </p>
-                  </a>
+                  </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
@@ -79,37 +113,7 @@ export default function Card() {
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
-                  className="h-48 w-full object-cover" 
-                  src="./vp.png" 
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
-                  </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Viva Portraits</p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Mr. B is a local San Antonio landscaper who specializes in lawn care, tree trimming, and more. He's been in the business for over 10 years and has a passion for helping his community.
-                    </p>
-                  </a>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href="/">
-                      <span className="sr-only">Github</span>
-                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover" 
+                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                   src="pr2.png" 
                   alt=""
                 />
@@ -117,14 +121,14 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
+                    <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Ponce Remodeling</p>
                     <p className="mt-3 text-base text-gray-500">
                       Ponce Remodeling specializes in interior and exterior remodeling. Commercial and Residential services are available to the San Antonio community.
                     </p>
-                  </a>
+                  </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
@@ -139,7 +143,7 @@ export default function Card() {
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
-                  className="h-48 w-full object-cover" 
+                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                   src="./crafty.png" 
                   alt=""
                 />
@@ -147,14 +151,14 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
+                    <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Crafty Wreaths</p>
                     <p className="mt-3 text-base text-gray-500">
                       Crafty Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Crafty Wreaths can create the perfect wreath for your home.
                     </p>
-                  </a>
+                  </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
@@ -169,7 +173,7 @@ export default function Card() {
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
-                  className="h-48 w-full object-cover" 
+                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                   src="./alamo.png" 
                   alt=""
                 />
@@ -177,14 +181,14 @@ export default function Card() {
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">Article</a>
+                    <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
-                  <a href="/" className="mt-2 block">
+                  <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
                     <p className="mt-3 text-base text-gray-500">
                       From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.    
                     </p>
-                  </a>
+                  </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
