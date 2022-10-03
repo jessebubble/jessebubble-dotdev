@@ -1,26 +1,22 @@
-import { FiInstagram, FiTwitter, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
+import { FiInstagram, FiTwitter, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 export default function Form() {
     const form = useRef();
 
     const sendEmail = (e) => {
-            e.prefentDefault();
+        e.preventDefault();
 
-            emailjs
-                .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
-                    .then(
-                        (result) => {
-                            console.log(result.text);
-                            alert('SUCCESS!');
-                        },
-                        (error) => {
-                            console.log(error.text);
-                            alert('FAILED...', error);
-                        }
-                    );
+        emailjs.sendForm('service_hxrxpdb', 'template_p9czz9g', form.current, 'Vg9DbywednMl26hQU')
+            .then((result) => {
+                    console.log(result.text);
+                },(error) => {
+                    console.log(error.text);
+                });
+                e.target.reset();
     };
+
     return (
         <main className="relative bg-slate-900 pb-6 md:pb-10 md:pt-10 pt-6">
             <div className="absolute inset-0">
@@ -76,49 +72,49 @@ export default function Form() {
                     <div className="mx-auto max-w-lg lg:max-w-none">
                         <form ref={form} onSubmit={sendEmail} className="grid grid-cols-1 gap-y-6">
                             <div>
-                                <label htmlFor="full-name" className="sr-only">Full name</label>
+                                <label htmlFor="name" className="sr-only">name</label>
                                 <input 
                                     type="text" 
-                                    name="full-name" 
-                                    id="full-name" 
-                                    autoComplete="name" 
+                                    name="name" 
+                                    id="name" 
                                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" 
                                     placeholder="Full name"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="email" className="sr-only">Email</label>
+                                <label htmlFor='email' className="sr-only">Email</label>
                                 <input 
-                                    id="email" 
+                                    type="text" 
                                     name="email" 
-                                    type="email" 
-                                    autoComplete="email" 
+                                    id="email" 
                                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" 
                                     placeholder="Email"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="phone" className="sr-only">Phone</label>
+                                <label htmlFor='phone' className="sr-only">Phone</label>
                                 <input 
                                     type="text" 
                                     name="phone" 
                                     id="phone" 
-                                    autoComplete="tel" 
                                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" 
                                     placeholder="Phone"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="message" className="sr-only">Message</label>
+                                <label htmlFor='message' className="sr-only">Message</label>
                                 <textarea 
-                                    id="message" 
+                                    type="text"
                                     name="message" 
+                                    id="message" 
                                     rows="4" 
                                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Message">
                                 </textarea>
                             </div>
                             <div>
-                                <button type="submit" className="inline-flex justify-center rounded-md border border-transparent bg-cyan-400 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+                                <button type="submit" id="button" className="inline-flex justify-center rounded-md border border-transparent bg-cyan-400 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                                    Submit
+                                </button>
                             </div>
                         </form>
                     </div>
