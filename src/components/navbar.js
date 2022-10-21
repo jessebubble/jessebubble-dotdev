@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom';
+import { ReactComponent as Logo} from '../jessebubble2.svg'
 
 
 export default function Nav() {
@@ -8,14 +9,10 @@ export default function Nav() {
   return (
     <>
       <main className="bg-slate-900">
-        <div className="flex flex-row items-center justify-start md:justify-around gap-40 md:gap-0 p-4 lg:p-0">
+        <div className="flex flex-row items-center justify-evenly lg:justify-around">
             <div className="">
               <Link to='/'>
-                <img
-                  className='w-36 md:w-20'
-                  src="./dev.png"
-                  alt="logo"
-                />
+                <Logo className='w-60 lg:w-32 h-full'/> 
               </Link>
             </div>
             <div className="hidden md:block">

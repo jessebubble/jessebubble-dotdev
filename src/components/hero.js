@@ -5,11 +5,11 @@ import { Player } from '@lottiefiles/react-lottie-player';
 export default function Hero() {
   return (
     <>
-     <main className="bg-slate-900 md:pt-6 md:pb-6 lg:pt-16 lg:pb-16">
+     <main className="bg-slate-900 ">
       <div className="flex flex-col md:flex-row items-center justify-evenly p-6 md:p-8 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
-            More Than Just A <span className="block text-sky-400">Developer</span>
+            More Than Just A <span className="block text-indigo-500">Developer</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-white md:max-w-xl text-lg md:text-xl">
             San Antonio native with strong interpersonal and communication skills, dedicated to teamwork and collaboration. 
@@ -25,8 +25,8 @@ export default function Hero() {
         </div>
         <div className=''> 
           <Player
-          src='https://assets5.lottiefiles.com/private_files/lf30_jr8x8vcd.json'
-          className='md:w-60 lg:w-80'
+          src='https://assets3.lottiefiles.com/packages/lf20_sUw6TRx8Ys.json'
+          className='md:w-96'
           background='transparent'
           loop={true}
           autoplay={true} >
