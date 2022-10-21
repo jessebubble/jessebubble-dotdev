@@ -82,11 +82,13 @@ export default function Card() {
             </div>
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-black">
               <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
-                  src="./vivawreaths.png" 
-                  alt="logo"
-                />
+                <a href='https://www.vivawreaths.com/'>
+                  <img 
+                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    src="./vivawreaths.png" 
+                    alt="logo"
+                  />
+                </a>
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
@@ -94,15 +96,15 @@ export default function Card() {
                     <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
                   <div className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Crafty Wreaths</p>
+                    <p className="text-xl font-semibold text-gray-900"><span className='text-emerald-500'>VIVA</span> Wreaths</p>
                     <p className="mt-3 text-base text-gray-500">
-                      Crafty Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Crafty Wreaths can create the perfect wreath for your home.
+                      Viva Wreaths is a local San Antonio business that specializes in custom wreaths. No matter the occasion, Viva Wreaths can create the perfect wreath for your home and business
                     </p>
                   </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="/">
+                    <a href="https://github.com/jessebubble/viva-wreaths">
                       <span className="sr-only">Github</span>
                       <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
                     </a>
