@@ -8,70 +8,6 @@ export default function Contact() {
     <>
     <Nav />
 
-    <main className="relative bg-slate-900 py-16 sm:py-24">
-      <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
-        <div className="relative sm:py-16 lg:py-0">
-          <div aria-hidden="true" className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-            <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-slate-100 lg:right-72"></div>
-            <svg className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
-              <defs>
-                <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
-            </svg>
-          </div>
-          <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
-            {/* <!-- Testimonial card--> */}
-            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <img 
-                className="absolute inset-0 h-full w-full object-cover" 
-                src="./bubble6.png" 
-                alt=""
-              />
-              <div className="absolute inset-0 bg-yellow-400 mix-blend-multiply"></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-indigo-800 via-indigo-800 opacity-75"></div>
-              <div className="relative px-8">
-                <blockquote className="mt-8">
-                  <div className="relative text-lg font-medium text-white md:flex-grow">
-                    <svg className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                      <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                    </svg>
-                    <p className="relative">
-                      Creating a platform to collaborate with the community and give my client's an opportunity to see their idea grow has been the most rewarding thing about switching careers.
-                    </p>
-                  </div>
-                  <footer className="mt-4">
-                    <p className="text-base font-semibold text-indigo-200">Jesse Hernandez | Web Developer</p>
-                  </footer>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-          {/* <!-- Content area --> */}
-          <div className="pt-12 sm:pt-16 lg:pt-20">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Independent doesn't mean alone</h2>
-            <div className="mt-6 space-y-6 text-gray-500">
-              <p className="text-lg">
-                Life before the pandemic was busy, but I was able to find time to work on my own projects. I was able to create a few websites and apps for friends and family, but I was always looking for a way to grow my skills and collaborate with others.
-              </p>
-              <p className="text-base leading-7">
-                During the pandemic I was able to take a step back to really focus on my web development skills. I said goodbye to my full-time job as an insurance professional and dived into the world of web development through a developer bootcamp and the self taught options online.
-              </p>
-              <p className="text-base leading-7">
-                Fast forward to today, I am a full stack web developer with a passion for creating websites and apps that are easy to use and look great. I am always looking for new opportunities to collaborate with others and grow my skills.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <Form />
-
     <main className="overflow-hidden bg-slate-50">
       <div className="relative mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
         <svg className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
@@ -86,7 +22,8 @@ export default function Contact() {
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">More Than Just A <span className='text-sky-500'>Freelancer</span></h2>
             <p className="mt-1 text-md text-slate-500">
-              I bring the following to every project
+              Dedicated to teamwork and collaboration. <br />
+              I bring the following to every project.
             </p>
           </div>
           <dl className="mt-10 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 sm:space-y-0 lg:col-span-2 lg:mt-0">
@@ -151,6 +88,7 @@ export default function Contact() {
       </div>
     </main>
 
+    <Form />
     <Footer />
     </>
   );

@@ -8,11 +8,11 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <main className="bg-slate-900">
-        <div className="flex flex-row items-center justify-evenly lg:justify-around">
+      <main className="bg-slate-900 pb-6 md:pb-0">
+        <div className="flex flex-col md:flex-row items-center justify-evenly lg:justify-around">
             <div className="">
               <Link to='/'>
-                <Logo className='w-60 lg:w-32 h-full'/> 
+                <Logo className='w-48 lg:w-44 h-full'/> 
               </Link>
             </div>
             <div className="hidden md:block">
@@ -39,7 +39,7 @@ export default function Nav() {
                 <span className="sr-only">Open main menu</span>
                 {!isOpen ? (
                   <svg
-                    className="block h-8 w-8"
+                    className="block h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

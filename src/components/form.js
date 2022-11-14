@@ -18,50 +18,51 @@ export default function Form() {
     };
 
     return (
-        <main className="relative bg-slate-900 pb-6 md:pb-10 md:pt-10 pt-6">
+        <main className="relative bg-slate-900">
             <div className="absolute inset-0">
                 <div className="absolute inset-y-0 left-0 w-1/2 bg-slate-900"></div>
             </div>
             <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
                 <div className="bg-slate-900 rounded py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div className="mx-auto max-w-lg">
-                        <h2 className="text-2xl font-bold tracking-tight text-slate-100 sm:text-3xl">Let's Connect</h2>
-                        <p className="mt-3 text-lg leading-6 text-gray-600">
-                            I'm open to freelance projects, design reviews, content creation and remote Full-Time oportunities.
+                        <h2 className="text-2xl font-bold tracking-tight text-indigo-500 sm:text-3xl">Let's Connect</h2>
+                        <p className="mt-3 text-lg leading-6 text-gray-300">
+                            Have an idea for a project? Want to chat about a new opportunity? I'd love to hear from you.
+                            Send me an email, fill out this form or connect with me on social media.
                         </p>
-                        <dl className="mt-8 text-base text-gray-600">
+                        <dl className="mt-8 text-base text-gray-300">
                             <div className="mt-6">
                                 <dt className="sr-only">Email</dt>
                                 <dd className="flex">
-                                    <FiMail className='h-6 w-6 text-slate-100' />
+                                    <FiMail className='h-6 w-6 text-indigo-500' />
                                     <span className="ml-3">jesse@vivawebdesign.dev</span>
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                 <dd className="flex">
-                                    <FiInstagram className='h-6 w-6 text-slate-100' />
+                                    <FiInstagram className='h-6 w-6 text-indigo-500' />
                                     <span className="ml-3">@jessebubble</span>
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                     <dd className="flex">
-                                        <FiTwitter className='h-6 w-6 text-slate-100' />
+                                        <FiTwitter className='h-6 w-6 text-indigo-500' />
                                         <span className="ml-3">@jessebubble</span>
                                     </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                     <dd className="flex">
-                                        <FiGithub className='h-6 w-6 text-slate-100' />
+                                        <FiGithub className='h-6 w-6 text-indigo-500' />
                                         <span className="ml-3">@jessebubble</span>
                                     </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Social</dt>
                                     <dd className="flex">
-                                        <FiLinkedin className='h-6 w-6 text-slate-100' />
+                                        <FiLinkedin className='h-6 w-6 text-indigo-500' />
                                         <span className="ml-3">@jessebubble</span>
                                     </dd>
                             </div>
@@ -112,7 +113,7 @@ export default function Form() {
                                 </textarea>
                             </div>
                             <div>
-                                <button type="submit" id="button" className="inline-flex justify-center rounded-md border border-transparent bg-cyan-400 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                                <button type="submit" id="button" className="inline-flex justify-center rounded-md border border-transparent bg-indigo-500 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                                     Submit
                                 </button>
                             </div>

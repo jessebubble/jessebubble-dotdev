@@ -73,11 +73,12 @@ export default function Hero() {
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p className="relative">
-                      Creating a platform to collaborate with the community and give my client's an opportunity to see their idea grow has been the most rewarding thing about switching careers.
+                      The passion, drive and energy I see from the startup community here in San Antonio is so contagious 
+                      and I'm excited for the opportunity to play a small role in helping these entrepreneurs bring their idea to life.
                     </p>
                   </div>
                   <footer className="mt-4">
-                    <p className="text-base font-semibold text-indigo-200">Jesse Hernandez | Web Developer</p>
+                    <p className="text-base font-semibold text-indigo-200">Jesse Hernandez | CEO - Viva Web Design </p>
                   </footer>
                 </blockquote>
               </div>
@@ -90,13 +91,18 @@ export default function Hero() {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Independent doesn't mean alone</h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">
-                Life before the pandemic was busy, but I was able to find time to work on my own projects. I was able to create a few websites and apps for friends and family, but I was always looking for a way to grow my skills and collaborate with others.
+                My goal as a developer isn't to work for a big tech company. My drive and passion as a developer is give back to the local community 
+                by giving small businesses the same level of quality and designs that the big tech companies have.
               </p>
               <p className="text-base leading-7">
-                During the pandemic I was able to take a step back to really focus on my web development skills. I said goodbye to my full-time job as an insurance professional and dived into the world of web development through a developer bootcamp and the self taught options online.
+                I'm here to play a small part in helping the startup community by creating a platform where they have access to modern web designs, development and animation.
+                There is no reason why a small business can't have the same level of quality and design as a big corporation. 
               </p>
               <p className="text-base leading-7">
-                Fast forward to today, I am a full stack web developer with a passion for creating websites and apps that are easy to use and look great. I am always looking for new opportunities to collaborate with others and grow my skills.
+                The passion, drive and energy I see from the startup community here in San Antonio is so contagious.
+                <span className='text-gray-300'> Independent doesn't mean alone</span> is more than just a cathphrase. 
+                It's a way of life. It's a way of thinking. It's a way of doing business.
+                Let's connect, collaborate and bring your idea to life.
               </p>
             </div>
           </div>
@@ -107,3 +113,4 @@ export default function Hero() {
    </>
   );
 }
+

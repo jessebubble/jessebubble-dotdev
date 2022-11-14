@@ -3,16 +3,16 @@ import { FiGithub } from "react-icons/fi"
 
 export default function Card() {
     return (
-
-        <main className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+      <main className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-white sm:h-2/3"></div>
         </div>
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">developer<span className='text-fuchsia-500'>Portfolio</span></h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">dev<span className='text-indigo-600'>Portfolio</span></h2>
             <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-              I've been fortunate enough to have support from the community. Here are some projects i've built for clients in San Antonio using modern web design, development, animation, and marketing tools.
+              I've been fortunate enough to gain support from the local community so early in my career as a web developer. 
+              Here are some projects i've built for clients in San Antonio using modern web design, development and animation.
             </p>
           </div>
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
@@ -20,9 +20,9 @@ export default function Card() {
               <div className="flex-shrink-0">
                 <a href="https://www.vivawebdesign.dev">
                   <img 
-                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    className="h-60 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                     src="./vivawebdesign.png" 
-                    alt="viva logo"
+                    alt="logo"
                   />
                 </a>
               </div>
@@ -48,31 +48,32 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-black">
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <a href="https://www.vivaportraits.com/">
+                <a href="https://www.alamowelding.com/">
                   <img 
-                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
-                    src="./vivaportraits.png" 
-                    alt=""
+                    className="h-60 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    src="./alamo.png" 
+                    alt="logo"
                   />
                 </a>
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href="/post/viva-portraits" className="hover:underline">devBlog</a>
+                    <a href="/blog" className="hover:underline">devBlog</a>
                   </p>
                   <div className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900"><span className="text-orange-500">VIVA</span> Portraits</p>
+                    <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
                     <p className="mt-3 text-base text-gray-500">
-                      Viva Portraits is a local San Antonio team of creatives specializing in accessable, affordable portraits for the community. Learn more about their monthly themed portrait sessions.
+                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.    
                     </p>
                   </div>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="https://github.com/jessebubble/viva-portraits">
+                    <a href="https://github.com/jessebubble/alamo-welding">
                       <span className="sr-only">Github</span>
                       <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
                     </a>
@@ -80,11 +81,12 @@ export default function Card() {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-black">
               <div className="flex-shrink-0">
                 <a href='https://www.vivawreaths.com/'>
                   <img 
-                    className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                    className="h-60 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                     src="./vivawreaths.png" 
                     alt="logo"
                   />
@@ -112,12 +114,77 @@ export default function Card() {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <img 
-                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                  className="h-60 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
+                  src="yung.png" 
+                  alt="logo"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <a href="/blog" className="hover:underline">devBlog</a>
+                  </p>
+                  <div className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">Yung Guardian</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Creating an emotional outlet through trippy electonic beats. Let your mind to escape reality and get lost with San Antonio artist Yung Guardian. The debut album is dropping in 2023
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="flex-shrink-0">
+                    <a href="https://github.com/jessebubble/yung-guardian">
+                      <span className="sr-only">Github</span>
+                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-black">
+              <div className="flex-shrink-0">
+                <a href="https://www.vivaportraits.com/">
+                  <img 
+                    className="h-60 w-full object-contain hover:opacity-80 transition ease-in-out duration-150" 
+                    src="./vivaportraits.png" 
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    <a href="/post/viva-portraits" className="hover:underline">devBlog</a>
+                  </p>
+                  <div className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900"><span className="text-orange-500">VIVA</span> Portraits</p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Viva Portraits is a local San Antonio team of creatives specializing in accessable, affordable portraits for the community. Learn more about their monthly themed portrait sessions.
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="flex-shrink-0">
+                    <a href="https://github.com/jessebubble/viva-portraits">
+                      <span className="sr-only">Github</span>
+                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <img 
+                  className="h-60 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
                   src="./bl.png" 
-                  alt=""
+                  alt="logo"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
@@ -142,69 +209,8 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
-                  src="pr2.png" 
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">devBlog</a>
-                  </p>
-                  <div className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Ponce Remodeling</p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Ponce Remodeling specializes in interior and exterior remodeling. Commercial and Residential services are available to the San Antonio community.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href="/">
-                      <span className="sr-only">Github</span>
-                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img 
-                  className="h-48 w-full object-cover hover:opacity-80 transition ease-in-out duration-150" 
-                  src="./alamo.png" 
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    <a href="/blog" className="hover:underline">devBlog</a>
-                  </p>
-                  <div className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">Alamo Welding</p>
-                    <p className="mt-3 text-base text-gray-500">
-                      From custom fabrication to welding repairs, Alamo Welding has you covered. They specialize in custom fabrication and welding repairs for the San Antonio community.    
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href="/">
-                      <span className="sr-only">Github</span>
-                      <FiGithub className='text-gray-900 hover:text-gray-500 w-6 h-6' />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </main>
-
     )
 }
