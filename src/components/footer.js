@@ -2,6 +2,8 @@ import { FiInstagram, FiFacebook, FiTwitter, FiGithub, FiLinkedin } from "react-
 import { IconContext } from 'react-icons';
 
 export default function Footer() {
+  let year = new Date().getFullYear();
+
     return (
       <>
       <footer class="bg-slate-900">
@@ -35,7 +37,7 @@ export default function Footer() {
             </IconContext.Provider>
           </div>
           <div class="mt-8 md:order-1 md:mt-0">
-            <p class="text-center text-base text-gray-400">&copy; 2022 jessebubble.dev, website by viva web design</p>
+            <p class="text-center text-base text-gray-400">&copy; {year} jessebubble.dev, website by viva web design</p>
           </div>
         </div>
       </footer>
