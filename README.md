@@ -1,9 +1,7 @@
-## jessebubble.dev | independent doesn't mean alone
-- Developer portfolio built with `React` 
-- Styled with `TailwindCSS`
-- Blog powered by Headless CMS platform `Sanity.io`
-- Hosted through `Vercel`
+## jessebubble.dev
+independent doesn't mean alone
+- Web developer portfolio built with `React.js` and `tailwindcss`  
+
 * [jessebubble.dev](https://www.jessebubble.dev/)
 
-![logo](./public/screenshot.png)
-
+![logo](https://cdn.sanity.io/images/etrj839y/production/dd816197f59550c7aea35abb1a73c7759d93779f-1400x1400.gif)
