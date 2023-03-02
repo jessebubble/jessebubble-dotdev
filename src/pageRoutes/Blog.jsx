@@ -1,4 +1,4 @@
-import BlogHero from "../components/hero/BlogHero"
+import BlogHero from "../components/blog/BlogHero"
 
 export default function Blog() {
 
