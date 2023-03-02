@@ -29,7 +29,7 @@ export default function SideBar() {
                     <Bars3Icon className="h-6 w-6 md:h-10 md:w-10" aria-hidden="true" />
                 </button>
             </div>
-            <Tab.Group className="hidden lg:flex lg:flex-col lg:text-lg lg:leading-8">
+            <Tab.Group className="hidden lg:flex lg:flex-col lg:text-lg lg:leading-8 lg:-mt-28">
                 <Tab.List className="" aria-label="Sidebar">
                     {sideArray.map((item) => (   
                         <a href={item.href} key={item.name}>
