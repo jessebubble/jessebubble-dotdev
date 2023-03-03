@@ -1,7 +1,7 @@
 
 export const sideArray = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Portfolio', href: '/portfolio', current: false },
-  { name: 'Blog', href: 'blog', current: false },
+  { name: 'Home', href: '/'},
+  { name: 'About', href: '/about'},
+  { name: 'Portfolio', href: '/portfolio'},
+  { name: 'Blog', href: 'blog'},
 ]
