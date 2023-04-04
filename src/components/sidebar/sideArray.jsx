@@ -21,21 +21,21 @@ export const sideArray = [
         path: '/projects',
         features: [
             {
-                name: 'Viva Web Design',
+                name: 'Viva Web Design ↗',
                 description: "@vivawebdesign is an agency that designs and develops Shopify e-commerce storefronts, fast marketing websites, web applications and more.",
                 imageUrl: "https://cdn.sanity.io/images/etrj839y/production/4f7361092ce718f9ba962942c1e13d3e1ac5f64c-500x500.svg", 
                 icon: ArrowTopRightOnSquareIcon,
                 href: "https://www.vivawebdesign.dev/",
             },
             {
-                name: 'Yung Guardian',
+                name: 'Yung Guardian ↗',
                 description: "Yung Guardian is set to release their debut album in 2023. Created a custom music player with React to match the style of the bands trippy electronic sounds. Storefront is powered by Hydrogen, shopify's headless commerce.",
                 imageUrl: "https://cdn.sanity.io/images/etrj839y/production/08f140187eecde4fbfe4fddb0a08f7e60be4a6f7-500x500.svg",
                 icon: ArrowTopRightOnSquareIcon,
                 href: "https://www.yungguardian.com/",
             },
             {
-                name: 'Alamo Welding',
+                name: 'Alamo Welding ↗',
                 description: "Our client needed an online prescence to offically launch their brand in San Antonio. Built with React, TailwindCSS and Sanity as the headless CMS. With sanity, we were able to build a fast, SEO-friendly website our client can easily update in the future.",
                 imageUrl: "https://cdn.sanity.io/images/etrj839y/production/10908078b13bba39c7ca2f61a6edbefbcaa35759-500x500.svg",
                 icon: ArrowTopRightOnSquareIcon,
