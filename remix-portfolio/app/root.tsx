@@ -2,7 +2,7 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@re
 import stylesheet from "~/tailwind.css"
 import type { LinksFunction } from "@remix-run/node"
 import GlobalPattern from "~/GlobalPattern"
-import GlobalNavBar from "~/GlobalNavBar"
+import GlobalNavbar from "~/GlobalNavbar"
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -20,7 +20,7 @@ export default function App() {
       </head>
       <body>
         <div className="relative isolate bg-slate-900">
-          <GlobalNavBar />
+          <GlobalNavbar />
           <GlobalPattern />
           <Outlet />
           <ScrollRestoration />
