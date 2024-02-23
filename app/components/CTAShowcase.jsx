@@ -11,26 +11,31 @@ const collections = [
                 name: 'Built with Blazor',
                 role: "Blazor extends the capabilities of .NET to the client side, enabling developers to use C# for both server-side and client-side programming", 
                 href: 'https://github.com/jessebubble/blazor',
+                cloudinary: 'https://res.cloudinary.com/jessebubble/image/upload/v1708241255/blazor_gwq6t6.png',
             },
             {
                 name: 'Built with Ruby on Rails',
                 role: "The combination of Ruby's expressiveness and Rails' conventions contributes to the effectiveness of the framework",
                 href: 'https://github.com/jessebubble/blog-on-rails',
+                cloudinary: 'https://res.cloudinary.com/jessebubble/image/upload/v1707781399/midjourney/github_hlswbo.png',
             },
             {
                 name: 'Built with Spring Boot',
                 role: 'From web applications to microservices, Spring Boot is a popular Java framework for building enterprise-grade applications.',
                 href: 'https://github.com/jessebubble/spring-boot',
+                cloudinary: 'https://res.cloudinary.com/jessebubble/image/upload/v1708241255/spring_o7tta0.png',
             },
             {
                 name: 'Built with Drupal',
                 role: 'Drupal is an open-source CMS written in PHP. It enables users to create, manage, and organize content on their websites with ease.',
                 href: 'https://github.com/jessebubble/drupal',
+                cloudinary: 'https://res.cloudinary.com/jessebubble/image/upload/v1708019767/terminal_vlhy9n.png',
             },
             {
                 name: 'Built with Remix',
                 role: "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience",
                 href: 'https://github.com/jessebubble/viva-web-design',
+                cloudinary: 'https://res.cloudinary.com/jessebubble/image/upload/v1708122485/remix_q0dzq3.png',
             },
         ],
     },
@@ -68,7 +73,7 @@ export function ShowcaseSection() {
                                                     <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
                                                         <Link to={example.href}>
                                                             <img
-                                                                src="https://res.cloudinary.com/jessebubble/image/upload/v1707781264/midjourney/midjourney_nywezv.png"
+                                                                src={example.cloudinary}
                                                                 alt="screen shot of the product"
                                                                 className="h-96 w-full object-cover grayscale transition duration-500 motion-safe:group-hover:scale-105"
                                                             />
