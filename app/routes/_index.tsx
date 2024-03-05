@@ -7,7 +7,7 @@ import { ShowcaseSection } from '~/components/CTA/Showcase';
 export default function Index() {
     return (
         <>
-\            <PageIntro
+            <PageIntro
                 eyebrow="Hey, I'm Jesse"
                 title="Focused on web standards and modern user experiences"
             >
