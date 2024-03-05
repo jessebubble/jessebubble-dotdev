@@ -41,7 +41,7 @@ export function HeroScroll() {
                                         <img
                                             src={item.imgSrc}
                                             alt="devsa terminal logos"
-                                            className="hero-image absolute right-[5%] top-1/2 w-[50vmin] -translate-y-1/2 translate-x-0 rounded-3xl object-contain sm:right-[10%] sm:w-[70vmin]"
+                                            className="hero-image absolute md:right-[5%] md:top-1/2 md:w-[50vmin] -translate-y-1/2 translate-x-0 rounded-3xl object-contain right-[10%] w-[70vmin] top-1/4"
                                             style={{
                                                 //zIndex: -1,
                                                 transformOrigin: '300% 50%',
@@ -117,6 +117,10 @@ export function HeroScroll() {
 
 const items = [
     {
+        title: 'Digital Canvas Foundation',
+        imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1709245433/process-dotted_wmkoxw.svg',
+    },
+    {
         title: 'Shaping the identity of tech in sa',
         imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1708019767/devsa_kum4r4.png',
     },
@@ -152,12 +156,9 @@ const items = [
         title: 'Actively seeking sponsors',
         imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1708296271/qr_bIY7sy6FecLJeTm5kk_1_dj4ity.png',
     },
-    {
-        title: 'Digital Canvas Foundation',
-        imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1709503718/dc-studio/pexels-kamaji-ogino-5093673_qghoqp.jpg',
-    },
+
     {
         title: '@jessebubble',
-        imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1706924009/midjourney/saint-adobe3_gzvm9v.png',
+        imgSrc: 'https://res.cloudinary.com/jessebubble/image/upload/v1707188269/midjourney/teamwork_hlox7m.png',
     },
 ];

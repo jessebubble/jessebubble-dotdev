@@ -65,14 +65,14 @@ export function ShowcaseSection() {
                                         {group.examples.map((example) => (
                                             <li key={example.name}>
                                                 <FadeIn>
-                                                    <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
+                                                    <div className="group relative overflow-hidden">
                                                         <Link to={example.href}>
                                                             <img
                                                                 src="https://res.cloudinary.com/jessebubble/image/upload/v1708019767/devsa-window_bn7x4c.png"
                                                                 alt="screen shot of the product"
-                                                                className="h-96 w-full object-cover object-center grayscale transition-all duration-300 group-hover:grayscale-0"
+                                                                className="h-96 w-full object-contain object-center grayscale transition-all duration-300 group-hover:grayscale-0"
                                                             />
-                                                            <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black to-black/0 to-40% p-6">
+                                                            <div className="absolute inset-0 flex flex-col justify-center p-6">
                                                                 <p className="font-display text-base/6 font-semibold tracking-wide text-white">
                                                                     {
                                                                         example.name
