@@ -26,7 +26,7 @@ export function HeroScroll() {
                                 {items.map((item, index) => (
                                     <li
                                         key={index}
-                                        className="li-even relative grid h-[70%] md:h-[100%] md:w-[90vw] place-items-start overflow-hidden p-4"
+                                        className="li-even relative grid h-[70%] w-[100vw] md:h-[100%] md:w-[90vw] place-items-start overflow-hidden p-4"
                                     >
                                         <h2
                                             className="text-[clamp(1.5rem, 2vw + 1rem, 2rem)] sm:text-[clamp(2rem, 4vw + 1rem, 10rem)] m-0 max-w-full font-semibold uppercase text-neutral-950 sm:max-w-[50%]"
