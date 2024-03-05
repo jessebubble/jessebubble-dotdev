@@ -5,14 +5,7 @@ import { GridPattern } from '~/components/GridPattern';
 
 export function ToolSection() {
     return (
-        <div className="relative mt-24 pt-24 sm:mt-32 sm:pt-32 lg:mt-40 lg:pt-40">
-            <div className="absolute inset-x-0 top-0 -z-10 h-[884px] overflow-hidden rounded-t-3xl bg-gradient-to-b from-neutral-50">
-                <GridPattern
-                    className="absolute inset-0 h-full w-full fill-neutral-950/5 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
-                    yOffset={-270}
-                />
-            </div>
-
+        <div className="mt-24 py-24 sm:mt-32">
             <SectionIntro
                 eyebrow="Inside the Bubble"
                 title="Where user interface meets web standards"
@@ -26,7 +19,7 @@ export function ToolSection() {
                 </p>
             </SectionIntro>
 
-            <Container className="mt-24">
+            <Container className="mt-16">
                 <GridList className="">
                     <GridListItem title="Adobe" className="">
                         Illustrator, Photoshop, and the built-in Generative AI
@@ -49,7 +42,7 @@ export function ToolSection() {
                         More than just another React framework! Get good at
                         remix, and you'll get better at building for the web
                     </GridListItem>
-                    
+
                     <GridListItem title="SQLite" className="">
                         A powerful, lightweight, and easy-to-use database engine
                         that is perfect for websites of all sizes

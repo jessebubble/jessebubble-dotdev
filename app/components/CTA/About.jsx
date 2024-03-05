@@ -7,10 +7,11 @@ import { FadeIn } from '~/components/FadeIn';
 export function AboutSection() {
     return (
         <>
-            <div className="relative mt-24 pt-24 sm:mt-32 sm:pt-32">
+            <div className="relative mt-24 rounded-3xl bg-neutral-950 py-24 sm:mt-32">
                 <SectionIntro
                     eyebrow="Life in the bubble"
                     title="Disco, whiskey and feathered friends"
+                    invert={true}
                 >
                     <p>
                         Some of the best work i've ever done has been in the

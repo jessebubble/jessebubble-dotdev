@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion';
 import { Container } from '~/components/Container';
 import { Button } from '~/components/Button';
-import { Logo } from '~/components/Logo';
+import { Logo } from '~/components/images/Logo';
 import { Footer } from '~/components/Footer';
 
 export function RootLayout({ children }: { children: React.ReactNode }) {
@@ -59,21 +59,17 @@ function NavBar({
                     <Logo className="h-10 w-auto" />
                 </Link>
                 <div className="flex items-center gap-x-6">
-                    <Button 
+                    <Button
                         className={clsx(
-                            'text-white text-left',
-                            invert
-                                ? 'bg-neutral-950'
-                                : 'bg-white'
+                            'text-left text-white',
+                            invert ? 'bg-neutral-950' : 'bg-white'
                         )}
                     >
-                        From non-profits to community building
-                        <span className='block'>
-                        Explore my personal projects below to learn more
+                        <strong>devSA</strong>
+                        <span className="block">
+                            Shaping the identity of tech in San Antonio
                         </span>
                     </Button>
-                    
-
                     <button
                         ref={toggleRef}
                         type="button"
@@ -137,19 +133,29 @@ function Navigation() {
     return (
         <nav className="font-display mt-px text-5xl font-medium tracking-tight text-white">
             <NavigationRow>
-                <NavigationItem href="#">
-                    Digital Canvas Foundation
+                <NavigationItem href="https://discord.gg/f3gnmjScW3">
+                    Discord <span className="arrow text-spursTurq">→</span>
                 </NavigationItem>
-                <NavigationItem href="/#">Digital Canvas Studio</NavigationItem>
+                <NavigationItem href="https://github.com/devsanantonio">
+                    GitHub <span className="arrow text-spursTurq">→</span>
+                </NavigationItem>
             </NavigationRow>
             <NavigationRow>
-                <NavigationItem href="https://vivawebdesign.dev/">
-                    Viva Web Design
+                <NavigationItem href="https://www.youtube.com/@devSATX">
+                    YouTube <span className="arrow text-spursTurq">→</span>
                 </NavigationItem>
-                <NavigationItem href="https://devsanantonio.com/">
-                    devSA Community
+                <NavigationItem href="https://www.reddit.com/r/devSA">
+                    Twitch <span className="arrow text-spursTurq">→</span>
                 </NavigationItem>
             </NavigationRow>
+            <style>
+                {`
+                .arrow {
+                    transform: rotate(-45deg);
+                    display: inline-block;
+                }
+                `}
+            </style>
         </nav>
     );
 }
@@ -249,8 +255,9 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                     className="relative isolate flex w-full flex-col pt-9"
                 >
                     <main className="w-full flex-auto">{children}</main>
-
-                    <Footer />
+                    <div className="bg-neutral-50 pb-24">
+                        <Footer />
+                    </div>
                 </motion.div>
             </motion.div>
         </MotionConfig>
